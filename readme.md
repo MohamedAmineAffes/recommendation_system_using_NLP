@@ -122,15 +122,31 @@ For AWS integration, store these in your GitHub repository:
 
 ---
 
-## 👨‍💻 Author
+## 🤝 Contributing
 
-**Your Name** — DevOps Engineer | Cloud Enthusiast
+1. Fork the repository
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push the branch:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Open a Pull Request
 
 ---
 
-## 📢 License
+## 📬 Contact
 
-This project is open source and available under the [MIT License](LICENSE).
+For questions or support, contact:\
+**Mohamed Amine Affes**\
+📧 [mohamedamineaaffes@gmail.com](mailto\:mohamedamineaaffes@gmail.com)
+
 
 ```
 ```

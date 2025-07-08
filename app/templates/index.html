@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NLP Recommender</title>
+</head>
+<body>
+    <h1>Text Recommendation System</h1>
+    <form method="POST">
+        <label for="sentence">Enter Sentence:</label><br>
+        <input type="text" id="sentence" name="sentence" size="100" value="{{ input_text }}"><br><br>
+        <input type="submit" value="Get Recommendations">
+    </form>
+
+    {% if recommendations %}
+        <h2>Top Recommendations:</h2>
+        <ul>
+            {% for rec in recommendations %}
+                <li>{{ rec }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
